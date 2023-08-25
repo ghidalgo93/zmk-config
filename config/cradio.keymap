@@ -15,8 +15,8 @@
 #define LSYMBOLS 5
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &ht LGUI     k1  &ht LCTRL k2  &ht LSHFT k3  &ht RSYMBOLS k4
-#define HRMR(k1,k2,k3,k4) &ht LSYMBOLS k1  &ht RSHFT k2  &ht RCTRL k3  &ht RGUI     k4
+#define HRML(k1,k2,k3,k4) &ht LGUI     k1  &ht LCTRL k2  &ht LSHFT k3  &lt RSYMBOLS k4
+#define HRMR(k1,k2,k3,k4) &lt LSYMBOLS k1  &ht RSHFT k2  &ht RCTRL k3  &ht RGUI     k4
 
 / {
     behaviors {
